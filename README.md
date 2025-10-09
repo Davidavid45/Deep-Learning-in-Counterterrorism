@@ -78,7 +78,7 @@ This project applies LSTM-based deep learning models to predict weekly terrorist
 
 ```bash
 # Clone repository
-git clone https://github.com/yourusername/Deep-Learning-in-Counterterrorism.git
+git clone https://github.com/Davidavid45/Deep-Learning-in-Counterterrorism.git
 cd Deep-Learning-in-Counterterrorism
 
 # Install dependencies
@@ -159,7 +159,7 @@ If you use this work, please cite:
 
 ```bibtex
 @misc{deep-learning-counterterrorism,
-  author = {Your Name},
+  author = Oluwasegun Adegoke,
   title = {Deep Learning for Terrorism Forecasting},
   year = {2025},
   publisher = {GitHub},
