@@ -1,0 +1,33 @@
+\begin{table}[htbp]
+\centering
+\caption{Dataset Summary Statistics}
+\label{tab:dataset_summary}
+\begin{tabular}{lr}
+\toprule
+\textbf{Characteristic} & \textbf{Value} \\
+\midrule
+Data Source & Global Terrorism Database (GTD) \\
+Time Period & 1970--2016 \\
+Total Records & 29,436 \\
+Temporal Granularity & Weekly \\
+Total Weeks & 2,434 \\
+Number of Features & 13 \\
+\midrule
+\multicolumn{2}{l}{\textbf{Feature Categories:}} \\
+\quad Lag Features & 1 (52-week lag) \\
+\quad Rolling Statistics & 4 (4-week \& 12-week) \\
+\quad Geographic Features & 1 (region) \\
+\quad Casualty Features & 3 (casualties, killed, wounded) \\
+\quad Target Variable & Attack count (weekly) \\
+\midrule
+\multicolumn{2}{l}{\textbf{Data Split:}} \\
+\quad Training Set & 70\% (20,605 records) \\
+\quad Validation Set & 15\% (4,415 records) \\
+\quad Test Set & 15\% (4,416 records) \\
+\bottomrule
+\end{tabular}
+\begin{tablenotes}
+\small
+\item Note: Features include temporal patterns, geographic context, and historical casualty information.
+\end{tablenotes}
+\end{table}

@@ -1,0 +1,11 @@
+\begin{tabular}{lrrrrrrl}
+\toprule
+Configuration & Samples & Sequences & RMSE & MAE & R2 & RMSE_Impact & Interpretation \\
+\midrule
+Full History (1970-2016) & 29436 & 29406 & 9.224442 & 4.715655 & 0.692813 & 0.000000 & Baseline \\
+Recent Only (Last 5 Years) & 3144 & 3114 & 20.855891 & 15.299292 & 0.469617 & 11.631449 & Long history needed \\
+Sequence Length 20 & 29436 & 29416 & 7.465836 & 4.394506 & 0.798726 & NaN &  \\
+Sequence Length 30 & 29436 & 29406 & 7.570559 & 4.083526 & 0.793091 & 1.190559 & Baseline \\
+Sequence Length 40 & 29436 & 29396 & 8.678265 & 4.592961 & 0.728202 & NaN &  \\
+\bottomrule
+\end{tabular}

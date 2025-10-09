@@ -1,0 +1,72 @@
+# Python
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+.Python
+build/
+develop-eggs/
+dist/
+downloads/
+eggs/
+.eggs/
+lib/
+lib64/
+parts/
+sdist/
+var/
+wheels/
+*.egg-info/
+.installed.cfg
+*.egg
+
+# Virtual Environments
+venv/
+env/
+ENV/
+.venv
+
+# Jupyter Notebook
+.ipynb_checkpoints
+*.ipynb
+
+# IDEs
+.vscode/
+.idea/
+*.swp
+*.swo
+*~
+
+# OS
+.DS_Store
+Thumbs.db
+
+# Project specific
+*.log
+nohup.out
+feature_ablation.log
+
+# Large data files (document download link in README)
+data/raw/*.csv
+data/raw/*.zip
+
+# Model checkpoints (too large for git)
+src/models/checkpoints/*.h5
+src/models/bidirectional_lstm_weekly/*.h5
+src/models/lstm_attention_weekly/*.h5
+*.keras
+
+# Pickle files
+*.pkl
+
+# Results that can be regenerated
+results/*.npy
+src/preprocess/results/*.npy
+
+# Temporary files
+*.tmp
+.cache/
+
+# Environment files
+.env
+.env.local

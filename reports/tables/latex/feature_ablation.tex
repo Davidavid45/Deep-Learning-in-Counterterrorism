@@ -1,0 +1,21 @@
+\begin{table}[htbp]
+\centering
+\caption{Feature Ablation Study: Impact of Removing Feature Groups}
+\label{tab:feature_ablation}
+\begin{tabular}{lrrrrl}
+\toprule
+\textbf{Feature Group} & \textbf{Features} & \textbf{RMSE} & \textbf{$\Delta$ RMSE} & \textbf{R²} & \textbf{Interpretation} \\
+\midrule
+Lag Features & 12 & 17.54 & +0.292 & -0.111 & Moderate contribution \\
+Casualty Features & 10 & 17.42 & +0.177 & -0.096 & Minimal impact \\
+\textbf{Baseline (All Features)} & 13 & \textbf{17.25} & +0.000 & -0.074 & Full model \\
+Geographic Features & 13 & 15.96 & -1.291 & 0.081 & Critical feature group \\
+Rolling Statistics & 9 & 15.45 & -1.797 & 0.138 & Critical feature group \\
+\bottomrule
+\end{tabular}
+\begin{tablenotes}
+\small
+\item Note: $\Delta$ RMSE shows change when feature group is removed. Positive values indicate performance degradation.
+\item Negative values indicate that removing the feature group improves performance (suggesting overfitting).
+\end{tablenotes}
+\end{table}

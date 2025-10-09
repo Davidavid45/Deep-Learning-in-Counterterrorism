@@ -1,0 +1,11 @@
+\begin{tabular}{lrrrrrrlr}
+\toprule
+Feature Group & Features Count & RMSE & MAE & R2 & RMSE_Impact & MAE_Impact & Interpretation & Epochs \\
+\midrule
+Lag Features & 12 & 17.539161 & 8.398773 & -0.110556 & 0.292269 & 0.490011 & Moderate contribution & 44 \\
+Casualty Features & 10 & 17.423460 & 8.409515 & -0.095952 & 0.176569 & 0.500753 & Minimal impact & 40 \\
+Baseline (All Features) & 13 & 17.246891 & 7.908762 & -0.073852 & 0.000000 & 0.000000 & Full model & 38 \\
+Geographic Features & 13 & 15.956263 & 8.074137 & 0.080853 & -1.290628 & 0.165374 & Critical feature group & 60 \\
+Rolling Statistics & 9 & 15.449435 & 8.049443 & 0.138316 & -1.797456 & 0.140681 & Critical feature group & 50 \\
+\bottomrule
+\end{tabular}

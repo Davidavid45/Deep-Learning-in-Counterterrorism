@@ -1,0 +1,22 @@
+\begin{table}[htbp]
+\centering
+\caption{Model Performance Comparison for Terrorist Attack Forecasting}
+\label{tab:model_performance}
+\begin{tabular}{llrrrr}
+\toprule
+\textbf{Model} & \textbf{Type} & \textbf{RMSE} & \textbf{MAE} & \textbf{R²} & \textbf{Improvement} \\
+\midrule
+Linear Regression & Baseline & 9.89 & 5.61 & -0.105 & - \\
+Seasonal Naive & Baseline & 9.96 & 5.62 & -0.122 & - \\
+Moving Average & Baseline & 10.09 & 7.92 & -0.150 & - \\
+SARIMA & Baseline & 11.52 & 9.96 & -0.499 & - \\
+LSTM with Attention & Deep Learning & 9.19 & 5.77 & 0.046 & 7.0\% \\
+\textbf{Bidirectional LSTM} & Deep Learning & \textbf{6.38} & \textbf{3.94} & \textbf{0.540} & \textbf{35.4\%} \\
+\bottomrule
+\end{tabular}
+\begin{tablenotes}
+\small
+\item Note: Improvement calculated relative to best baseline model. Best performing model shown in bold.
+\item RMSE: Root Mean Squared Error; MAE: Mean Absolute Error; R²: Coefficient of Determination
+\end{tablenotes}
+\end{table}

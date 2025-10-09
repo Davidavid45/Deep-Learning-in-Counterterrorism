@@ -1,0 +1,30 @@
+============================================================
+ABLATION STUDIES SUMMARY
+============================================================
+
+FEATURE ABLATION RESULTS
+------------------------------------------------------------
+Baseline RMSE: 17.2469
+
+Top 5 Most Impactful Feature Groups:
+  1. Lag Features: +0.2923 RMSE impact
+  2. Casualty Features: +0.1766 RMSE impact
+  3. Geographic Features: -1.2906 RMSE impact
+  4. Rolling Statistics: -1.7975 RMSE impact
+
+
+DATA CONFIGURATION ABLATION RESULTS
+------------------------------------------------------------
+Data Configuration Results:
+  1. Full History (1970-2016)
+     RMSE: 9.2244, Samples: 29436
+  2. Recent Only (Last 5 Years)
+     RMSE: 20.8559, Samples: 3144
+  3. Sequence Length 20
+     RMSE: 7.4658, Samples: 29436
+  4. Sequence Length 30
+     RMSE: 7.5706, Samples: 29436
+  5. Sequence Length 40
+     RMSE: 8.6783, Samples: 29436
+
+

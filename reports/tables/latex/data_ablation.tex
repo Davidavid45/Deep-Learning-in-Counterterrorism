@@ -1,0 +1,21 @@
+\begin{table}[htbp]
+\centering
+\caption{Data Configuration Ablation Study Results}
+\label{tab:data_ablation}
+\begin{tabular}{lrrrrl}
+\toprule
+\textbf{Configuration} & \textbf{Samples} & \textbf{RMSE} & \textbf{MAE} & \textbf{R²} & \textbf{Interpretation} \\
+\midrule
+\textbf{Full History (1970-2016)} & 29,436 & \textbf{9.22} & 4.72 & 0.693 & Baseline \\
+Recent Only (Last 5 Years) & 3,144 & 20.86 & 15.30 & 0.470 & Long history needed \\
+Sequence Length 20 & 29,436 & 7.47 & 4.39 & 0.799 &  \\
+Sequence Length 30 & 29,436 & 7.57 & 4.08 & 0.793 & Baseline \\
+Sequence Length 40 & 29,436 & 8.68 & 4.59 & 0.728 &  \\
+\bottomrule
+\end{tabular}
+\begin{tablenotes}
+\small
+\item Note: Configurations tested include historical data span and sequence length variations.
+\item Best performing configuration shown in bold.
+\end{tablenotes}
+\end{table}

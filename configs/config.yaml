@@ -1,0 +1,31 @@
+# Project Configuration
+project:
+  name: "Deep Learning in Counterterrorism"
+  author: "Oluwasegun Adegoke"
+
+# Data Configuration
+data:
+  data_dir: "/Users/oluwasegunadegoke/Desktop/Academics/GMU 3rd/OR-610/Project-Terror/Oluwasegun_Adegoke-Deep_leaining_Report"
+  raw_file: "globalterrorismdb_0617dist.csv"
+  encoding: "ISO-8859-1"
+
+# Aggregation Settings
+aggregation:
+  weekly_grain: "region"  # Can be: region, country, attacktype
+  
+# Train/Val/Test Split
+split:
+  train_ratio: 0.70
+  val_ratio: 0.15
+  test_ratio: 0.15
+
+# Model Settings
+model:
+  sequence_length: 30
+  seasonal_lag_weeks: 52
+  batch_size: 32
+  epochs: 100
+  learning_rate: 0.001
+
+# Reproducibility
+seed: 42
