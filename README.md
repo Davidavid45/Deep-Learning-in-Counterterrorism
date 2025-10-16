@@ -167,6 +167,18 @@ If you use this work, please cite:
 }
 ```
 
+```bibtex
+@misc{adegoke2025gtdforecast,
+  title   = {Predicting the Unpredictable: Reproducible BiLSTM Forecasting of Incident Counts in the Global Terrorism Database (GTD)},
+  author  = {Oluwasegun Adegoke},
+  year    = {2025},
+  eprint  = {ARXIV_ID_HERE},
+  archivePrefix = {arXiv},
+  primaryClass  = {cs.LG}
+}
+}
+```
+
 ## Data Citation
 
 This project uses the Global Terrorism Database:
