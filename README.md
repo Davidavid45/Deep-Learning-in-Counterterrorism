@@ -1,5 +1,6 @@
 # Deep Learning for Terrorism Forecasting# Deep Learning in Counterterrorism
-[![DOI](https://zenodo.org/badge/DOI/10.5281/zenodo.17409540.svg)](https://doi.org/10.5281/zenodo.17409540)
+[![DOI](https://zenodo.org/badge/DOI/10.5281/zenodo.17409540.svg)](https://doi.org/10.5281/zenodo.17409540).
+
 Time series forecasting of global terrorist attacks using deep learning architectures on the Global Terrorism Database (1970-2016).
 
 ## Project Overview
