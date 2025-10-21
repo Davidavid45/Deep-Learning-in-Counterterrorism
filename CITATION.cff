@@ -1,0 +1,17 @@
+cff-version: 1.2.0
+"If you use this, please cite it."
+title: "Predicting the Unpredictable: Reproducible BiLSTM Forecasting of Incident Counts in the GTD"
+version: v1.0.0-arxiv2510.15136
+doi: 10.5281/zenodo.17409540
+authors:
+  - family-names: Adegoke
+    given-names: Oluwasegun
+preferred-citation:
+  type: article
+  authors:
+    - family-names: Adegoke
+      given-names: Oluwasegun
+  title: "Predicting the Unpredictable: Reproducible BiLSTM Forecasting of Incident Counts in the Global Terrorism Database (GTD)"
+  journal: arXiv
+  year: 2025
+  notes: "arXiv:2510.15136"
