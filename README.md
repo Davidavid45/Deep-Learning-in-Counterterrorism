@@ -184,7 +184,7 @@ If you use this work, please cite:
 
 This project uses the Global Terrorism Database:
 
-> National Consortium for the Study of Terrorism and Responses to Terrorism (START). (2023). Global Terrorism Database [Data file]. Retrieved from https://www.start.umd.edu/gtd
+> National Consortium for the Study of Terrorism and Responses to Terrorism (START). (2023). Global Terrorism Database. Retrieved from https://www.start.umd.edu/gtd
 
 **Terms of Use:** https://www.start.umd.edu/gtd-terms
 
